@@ -1,0 +1,71 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+input {
+    margin: 10px;
+}
+select {
+    margin: 10px;
+}
+h1
+{
+    margin-right: auto;
+}
+.greenButton {
+    margin: 10px;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+}
+.redButton {
+    margin: 10px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+}
+.header {
+    border-bottom:2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+}
+footer {
+    border-top: 2px solid rgb(0, 0, 0);
+    padding-top: 3px;
+    text-align: center;
+    margin-top: auto;
+}
+li {
+    list-style-type: none;
+    outline: 3px solid #000;
+    width: 250px;
+    height: 175px;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+.listItem {
+    line-height: 1.5em;
+}
+ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#list {
+    width: 100%;
+}
+.description{
+    color:blue;
+    font-size: 15px;
+}
+.error{
+    color: red;
+    font-size: 15px;
+}
+.delete-checkbox {
+    float: left;
+}
